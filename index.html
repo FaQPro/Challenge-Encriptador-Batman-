@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Encriptador Batman</title>
+</head>
+<body>
+    <header>
+            <img src="logobatman.png" alt="logo encriptador batman">
+
+    </header>
+    <main>
+        <section class="section1">
+            <input type="text" id="textoEncriptado" placeholder="Escribe tu texto" class="textencrip">
+            <div class="cajaboton">
+                <button type="button" id="botonEncriptado" class="botonEncriptar">Encriptar</button>
+            </div>
+            <div class="cajaboton2">
+                <button type="button" id="botonDesencriptado" class="botonDesencriptado">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="section2">
+            <textarea name="resultado" id="textoDesencriptado" class="textarea"></textarea>
+            <div>
+                <button type="button" id="botonCopiar">Copiar</button>
+            </div>
+        </section>
+      
+    </main>
+    <footer>
+        By Facu.Pro Encriptador challenge #1 Alura Front End  
+
+    </footer>
+   
+</body>
+<script>
+    var btn = document.querySelector("#botonEncriptado");
+    btn.onclick = encriptar;
+    var btn2 = document.querySelector("#botonDesencriptado");
+    btn2.onclick = desencriptar;
+    var btn3 = document.querySelector("#botonCopiar");
+    btn3.onclick = copiar;
+
+</script>
+</html>

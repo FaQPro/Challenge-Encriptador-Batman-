@@ -1,0 +1,117 @@
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #181818;
+    align-items: center;
+    justify-content: right;
+}
+header img {
+    margin-left: 20px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+}
+
+main {
+    width: 100%;
+    height: 900px;
+    background-image: url(fondoBatman.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-color: #181818;
+    display: flex;
+}
+section {
+    display: flex;
+
+
+}
+.section1 {
+    width: 35%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.textencrip {
+    width: 100%;
+    height: 250px;
+    resize: none;
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    border-radius: 15px;
+    border: 5px;
+    background-color: rgb(17, 1, 61);
+    color: white;
+}
+.cajaboton{
+    padding: 5px;
+    text-align: center;
+    margin-top: 50px;
+}
+.botonEncriptar{
+    height: 30px;
+    width: 30%;
+    font-size: 20px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    
+}
+.botonEncriptar:hover {
+    background-color: gray;
+    color: blue
+}
+.section2 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 10px;
+    align-content: center;
+}
+.textarea{
+    width: 50%;
+    height: 168px;
+    font-size: 26px;
+    background-color: rgb(17, 1, 61);
+    color: white;
+
+}
+.cajaboton2 {
+    padding: 5px;
+    text-align: center;
+    margin-top: 195px;
+    
+}
+.botonDesencriptado {
+    height: 30px;
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+.botonDesencriptado:hover {
+    background-color: gray;
+    color: blue
+}
+footer {
+
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+body {
+    background-color: black;
+   
+}
